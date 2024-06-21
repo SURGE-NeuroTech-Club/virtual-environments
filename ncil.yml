@@ -1,0 +1,107 @@
+name: ncil
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python
+  - notebook
+  - jupyterlab
+  - numpy
+  - altair
+  - conda-forge::blas=*=openblas
+  - cython
+  - h5py
+  - ipympl
+  - ipywidgets
+  - matplotlib-base
+  - numexpr
+  - pandas
+  - pandoc
+  - patsy
+  - Pillow
+  - protobuf
+  - pytables
+  - pyyaml
+  - regex
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - sympy
+  - widgetsnbextension
+  - xlrd
+  - pip
+  - pydicom
+  - dicom2nifti
+  - dcm2bids
+  - gh
+  - ghp-import
+  - jupyter-book
+  - jupyterlab-git
+  - nbconvert
+  - nodejs
+  - nibabel
+  - nilearn
+  - opencv
+  - mne
+  - mne-bids
+  - mne-nirs
+  - mne-qt-browser
+  - pyxdf
+  - pybv
+  - mayavi
+  - pyvista
+  - autoreject
+  - python-picard
+  - h5io
+  - h5py
+  - pymatreader
+  - pyarrow
+  - configparser
+  - pingouin
+  # - ocl-icd-system
+  - r-base
+  - r-essentials
+  - r-arrow 
+  - r-rjson
+  - r-e1071
+  - r-emmeans 
+  - r-ggeffects
+  - r-sjplot 
+  - r-sjstats 
+  - r-stargazer 
+  - r-corrplot
+  - r-yaml
+  - pip:
+    - mnelab
+    - rev_ai
+  # - r-brms
+  # - r-car 
+  
+  # - r-devtools
+  # - r-forecast
+  # - r-ggthemes 
+  # - r-hexbin
+  # - r-htmltools
+  # - r-htmlwidgets
+  # - r-languageserver
+  # - r-lattice 
+  # - r-lme4 
+  # - r-mgcv
+  # - r-party 
+  # - r-partykit 
+  # - r-ranger
+  # - r-rann
+  # - r-rcurl
+  # - r-reshape2 
+  # - r-rmarkdown
+  # - r-rodbc
+  # - r-rsqlite
+  # - r-see 
+  # - r-shiny
+  # - r-tidymodels
+  # - r-tidyverse
+  # - r-viridis
+  # - rpy2
+
