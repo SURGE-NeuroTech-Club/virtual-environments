@@ -76,7 +76,6 @@ dependencies:
   - pyside6
   - mvlearn
   - pip:
-    - pyqt6
     - brainflow
     - pylsl
     - mnelab
