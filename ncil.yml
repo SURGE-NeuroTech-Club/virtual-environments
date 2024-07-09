@@ -4,6 +4,7 @@ channels:
   - nodefaults
 dependencies:
   - python
+  - pip
   - notebook
   - jupyterlab
   - numpy
@@ -31,7 +32,6 @@ dependencies:
   - sympy
   - widgetsnbextension
   - xlrd
-  - pip
   - pydicom
   - dicom2nifti
   - dcm2bids
@@ -72,6 +72,12 @@ dependencies:
   - r-stargazer 
   - r-corrplot
   - r-yaml
+  - pygame
+  - pyside6
+  - mvlearn
   - pip:
+    - pyqt6
+    - brainflow
+    - pylsl
     - mnelab
     - rev_ai
